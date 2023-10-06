@@ -1,5 +1,6 @@
 import {Welcome, Hero as Dave} from "./components/Welcome";
 import Farewell from "./components/Farewell";
+import Sample from "./components/Sample";
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
   const index = 1;
 
   return (
-    index == 1 &&
+    index === 1 &&
       <>
         <h1>My Goals For This Class:</h1>
         <p>{goals[index]}</p>
@@ -20,6 +21,7 @@ function App() {
         <Welcome />
         <Dave />
         <Farewell />
+        <Sample />
       </>
   );
 }
